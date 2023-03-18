@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "web-socket-bot-1"
+version = "0.1.0"
+description = ""
+authors = ["Artem <atlas.monker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+websocket = "^0.2.1"
+names = "^0.3.0"
+websockets = "^10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^23.1.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
